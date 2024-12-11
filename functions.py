@@ -44,8 +44,26 @@ grass (149,"#800000")
 # door
 
 go(-185,100)
+t.setheading(0)
 rec(30,112.5,"brown")
 
+# tiny window 
+
+go(-80,165)
+rec(70,70,"brown")
+go(-70,175)
+rec(50,50,"#fad30f")
+
+# tree 
+go(120,100)
+rec(20,85,"brown")
+
+
+t.color("green")
+t.begin_fill()
+go(130,185)
+t.circle(50)
+t.end_fill()
 
 
 t.mainloop()
